@@ -24,4 +24,12 @@ public class SolutionsTest {
         solution.hello();
     }
 
+
+    @Test
+    public void maxAreaTest(){
+        int [] a= new int[]{2,3,4,5,18,17,6};
+
+        System.out.println(solution.maxArea(a));
+    }
+
 }
